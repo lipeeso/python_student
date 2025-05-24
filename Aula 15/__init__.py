@@ -24,18 +24,22 @@ Faça um programa que pergunte a hora ao usuário e, baseando - se no horário d
 EX: Bom dia 0-11, Boa tarde 12-17, Boa noite 18-23
 '''
 
-'''time = input('Que horas são?: ')
+time = input('Que horas são?: ')
 
+if not time.isnumeric():
+    print('Apenas números')
 
-if int(time) < 11:
-    print('Bom dia!')
+else:
+    time = int(time)
+    if time < 11:
+        print('Bom dia!')
 
-elif int(time) < 17:
-    print('Boa tarde!')
+    elif time < 17:
+        print('Boa tarde!')
 
-elif int(time) < 23:
-    print('Boa noite!')
-'''
+    elif time < 23:
+        print('Boa noite!')
+
 
 '''
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
