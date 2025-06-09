@@ -17,9 +17,9 @@ Essas funções podem ser usadas diretamente em cada tipo.
 print( nome[3] )'''
 
 #Indices Negativos [-5,-4,-3,-2,-1,0]
-'''name =           'F  e  l  i  p e'
+name =           'F  e  l  i  p e' 
 
-print(name[:6])'''
+print(name[:6])
 
 #Fatiamento de uma string
 # OBS: SE FOR PEGAR DO INICIO NÃO PRCISA INCLUIR O INDICE ELE PEGA O ZERO POR PADRÃO, ENTÃO FICARIA ASSIM [:5] E VICE E VERSA [0:]
