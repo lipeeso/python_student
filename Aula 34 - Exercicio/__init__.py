@@ -1,4 +1,4 @@
-from random import randint
+from random import randint #Gera número aleatório
 '''
 1 - Crie uma função que exibe uma saudação com os parâmetros saudação e nome
 '''
@@ -36,7 +36,7 @@ for divisível por 5 e por 3, retorne FizzBuzz, caso contrário, retorne o núme
 '''
 def fb(n):
     '''
-    Aqui ele não vai precisar de um elif por conta se cair na condição tem um return
+    Aqui ele não vai precisar de um elif por conta de que se cair na condição tem um return e nnão vai precisar checar outras condições 
     
     '''
     if n % 3 == 0 and n % 5 == 0:
@@ -48,7 +48,8 @@ def fb(n):
     
     return n
     
-    
+
 for i in range(100):
     aleatorio = randint(0, 100)
     print(fb(aleatorio))
+
