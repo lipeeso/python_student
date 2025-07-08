@@ -50,6 +50,16 @@ def function(*args, **kwargs):
     else:
         print('Age not found')
 
+    if name is not None:
+        print(name)
+    else:
+        print('Name not found')
+
+    if high is not None:
+        print(high)
+    else:
+        print('Name not found')
+
 print(function('Seu nome:', name='Felipe', age=23))
 
 '''*args é uma tupla e **kwargs é um dict'''
